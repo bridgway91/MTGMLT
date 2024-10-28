@@ -98,10 +98,33 @@ main {
 /* v players
 /*******************************************/
 
-.players {
+#players {
   min-height: 5rem;
   color: black;
   padding: 1rem;
+}
+.playerMain {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightslategray;
+}
+.playerMain img {
+  height: 2rem;
+  width: 2rem;
+  flex-basis: 10%;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+.playerMain img:first-child {
+  border-right: 2px solid black;
+}
+.blessing {
+  background-color: gold;
+  border-radius: 50%;
 }
 
 /******************************************
