@@ -34,7 +34,7 @@ body {
 .container::before,
 .container::after {
   content: '';
-  background: red;
+  background: grey;
   display: block;
   position: absolute;
   top: 0;
@@ -121,13 +121,17 @@ main {
   color: black;
   padding: 1rem;
 }
-.playerMain {
+.player {
+  background-color: lightslategray;
   border: 2px solid black;
   border-radius: 0.5rem;
+}
+.playerMain {
+  /* border-bottom: 2px solid black; */
   font-size: 2rem;
+  height: 2.5rem;
   display: flex;
   justify-content: space-between;
-  background-color: lightslategray;
 }
 .playerMain img {
   height: 2rem;
@@ -140,10 +144,11 @@ main {
 .playerMain img:first-child {
   border-right: 2px solid black;
 }
-.blessing {
+.blessing { /* change image, looks bad, grab token art + make own png */ 
   background-color: gold;
   border-radius: 50%;
 }
+
 
 /******************************************
 /* ^ players

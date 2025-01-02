@@ -32,7 +32,35 @@ class Player {
     }
 }
 
+// Index Handles---------
+const container = document.querySelector('#container') //prob dont need
+const header = document.querySelector('header') //prob dont need
+const options = document.querySelector('#options')
+const players = document.querySelector('#players')
+const addPlayerButton = document.querySelector('#add')
+const removePlayerButton = document.querySelector('#remove')
+const resetPlayerButton = document.querySelector('#reset')
+// ----------------------
 
+// Event Handlers--------
+options.addEventListener("click", openOptions())
+addPlayerButton.addEventListener("click", addPlayer())
+removePlayerButton.addEventListener("click", removePlayer())
+resetPlayerButton.addEventListener("click", resetGame())
+// ----------------------
+
+function addPlayer() {
+
+}
+function removePlayer() {
+
+}
+function resetGame() {
+
+}
+function updatePlayers() {
+
+}
 /*
     - side images of jace + liliana
         - need specified heights of header + border + rest
